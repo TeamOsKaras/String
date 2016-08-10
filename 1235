@@ -1,0 +1,15 @@
+cont = input()
+
+while cont > 0:
+        
+        palavra = raw_input()
+        meio = len(palavra)/2
+        textoA = palavra[:meio]
+        textoA2 = textoA[::-1]
+        textoB = palavra[meio::]
+        textoB2 = textoB[::-1]
+
+        print textoA2 + textoB2
+        
+        cont -= 1
+
