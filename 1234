@@ -1,0 +1,22 @@
+cont = 0
+palavra = raw_input()
+palavraFinal = ""
+
+for i in range(len(palavra)):
+
+        if palavra[i]!= " ":
+
+                if cont%2==0:
+
+                        cont += 1
+                        palavraFinal += palavra[i].upper()
+
+                else:
+
+                        palavraFinal += palavra[i].lower()
+                        cont += 1
+
+        else:
+                palavraFinal += palavra[i]
+
+print palavraFinal
