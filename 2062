@@ -1,0 +1,19 @@
+qtd_palavras = input()
+Nomes = raw_input().split()
+
+for i in Nomes:
+
+    if len(i)==3:
+
+        if "O" == i[0] and "B" == i[1]:
+            print "OBI",
+        elif "U" == i[0] and "R" == i[1]:
+            print "URI",
+        else:
+            print i,
+
+    else:
+
+        print i,
+
+    
